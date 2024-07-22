@@ -1,8 +1,8 @@
 getgenv().Prediction = 0.135
-getgenv().Smoothness = 0.5
+getgenv().Smoothness = 0.373
 getgenv().AimPart = "HumanoidRootPart"
 getgenv().OldAimpart = "HumanoidRootPart"
-getgenv().ShakeValue = 3
+getgenv().ShakeValue = 2
 getgenv().AutoPred = true
 
 ---// NOT MADE BY ME BUT I STILL CREDS TO LION //--
@@ -137,7 +137,7 @@ Tool.Activated:Connect(function()
             if Victim ~= nil then
                 Victim = nil
 
-                Notify("Unlocked!")
+                Notify("denys!")
             end
         end
     else
