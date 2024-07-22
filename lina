@@ -8,7 +8,7 @@ getgenv().AutoPred = true
 ---// NOT MADE BY ME BUT I STILL CREDS TO LION //--
 
 local Tool = Instance.new("Tool")
-Tool.RequiresHandle = "true"
+Tool.RequiresHandle = "false"
 Tool.Name = "josh assist"
 Tool.Parent = game.Players.LocalPlayer.Backpack
 
