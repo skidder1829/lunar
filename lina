@@ -1,5 +1,5 @@
 getgenv().Prediction = 0.135
-getgenv().Smoothness = 0.367
+getgenv().Smoothness = 0.200
 getgenv().AimPart = "HumanoidRootPart"
 getgenv().OldAimpart = "HumanoidRootPart"
 getgenv().ShakeValue = 1
