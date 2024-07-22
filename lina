@@ -8,8 +8,8 @@ getgenv().AutoPred = true
 ---// NOT MADE BY ME BUT I STILL CREDS TO LION //--
 
 local Tool = Instance.new("Tool")
-Tool.RequiresHandle = false
-Tool.Name = "Lunar Cam"
+Tool.RequiresHandle = "true"
+Tool.Name = "josh assist"
 Tool.Parent = game.Players.LocalPlayer.Backpack
 
 local player = game.Players.LocalPlayer
@@ -50,9 +50,9 @@ local SelectedDisableKey = getgenv().DisableKey
 
 function Notify(tx)
     SG:SetCore("SendNotification", {
-        Title = "Lunar Cheat",
+        Title = "stop Lyinv",
         Text = tx,
-        Duration = 5
+        Duration = 2
     })
 end
 
